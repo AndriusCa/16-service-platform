@@ -1,0 +1,22 @@
+{
+  "name": "16-service-platform",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "client": "dead-server --host=localhost --port=4425",
+    "server": "nodemon ./dist",
+    "ts": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Andrius",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.3.2",
+    "dead-server": "^1.0.9",
+    "nodemon": "^2.0.22",
+    "typescript": "^5.1.5"
+  },
+  "description": ""
+}
